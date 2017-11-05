@@ -1,0 +1,82 @@
+<title>Clean Blog</title>
+
+<%= render 'shim' %>
+<%= render 'navigation' %>
+<%= render 'header' %>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <div class="post-preview">
+                <%= link_to post_path do %>
+                <h1>Become a Parachute Teacher</h1>
+                <% end %>
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                  <div class="col-lg-4">
+                    <%= image_tag("paint-brush-128.png", :alt => "paint brush", :width => 140, :height => 140) %>
+                    <h2>Authentic Learning</h2>
+                    <p>Parachute Teachers are facilitators that engage students with real-world learning through inquiry, problem-solving and critical thinking.</p>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <%= image_tag("badge-2-128.png", :alt => "paint brush", :width => 140, :height => 140) %>
+                    <h2>Meaningful Training</h2>
+                    <p>Parachute allows teachers to earn badges throughout the year to sharpen their practices in supporting ELL and SPED students and other critical skills</p>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-3">
+                    <%= image_tag("banknotes-128.png", :alt => "paint brush", :width => 140, :height => 140) %>
+                    <h2>Innovative Human Capital</h2>
+                    <p>Parachute Teachers can be hired by the hour allowing for flexible staffing for before and after school, workshops and early release days.</p>
+                  </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div>
+            <hr>
+            <div class="post-preview">
+                <h2 class="post-title">
+                    What is Parachute Teachers?
+                </h2>
+                <p>Parachute is an innovative online marketplace for talented individuals that want to teach
+                  part-time in local schools while remaining in their profession. Read more about us in the Atlantic.</p>
+                <%= link_to post_path do %>
+                <h1>Become a Parachute Teacher</h1>
+                <% end %>
+            </div>
+            <hr>
+            <div class="post-preview">
+              <div class="row">
+                  <div class="col-md-7">
+                    <h2 class="post-title">
+                        What our fans are saying...
+                    </h2>
+                    <p>“We love using Parachute teachers because they provide students with an opportunity
+                      to experience things they hadn’t ever talked about before. One Parachuter brought in
+                      a 3-D printer. Another had students do yoga and learn about mindfulness. During one
+                      Parachuters’ recent classes, students learned that their neighborhood is a food desert —
+                      an urban area without many fresh food options. It was different from what they normally
+                      learn. The kids loved it.”</p>
+                  </div>
+                  <div class="col-md-4">
+                    <h2>OUR MISSION</h2>
+                    <p>Schools are the backbone of every community. Parachute connects community members with
+                      unique talents like coding and yoga to local schools as part-time teachers. Parachute Teachers
+                      are biologists, engineers, poets, musicians, scientists, and historians among many other things.</p>
+                    <h2>Sarah Cherry Rice</h2>
+                    <h3>FOUNDER OF PARACHUTE TEACHERS</h3>
+                    <p>"...Boston has an incredible ecosystem of people who have expertise and want to be in schools,
+                      but there hasn’t been a clear pathway to come into schools."</p>
+                  </div>
+              </div>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <%= image_tag("illustrations/Capture2.png", :alt => "Illustration+2", :width => 1202)%>
+              </div>
+            <hr>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<%= render 'footer' %>

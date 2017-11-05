@@ -1,0 +1,9 @@
+<%= form_for :tables, url: airtable_index_path do %>
+  <%=label_tag(:name, 'name') %>
+  <%=text_field_tag(:name) %>
+
+  <%=label_tag(:description, 'description') %>
+  <%=text_field_tag(:description) %>
+
+  <div><%= submit_tag 'Save' %></div>
+<% end %>

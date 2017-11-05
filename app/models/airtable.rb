@@ -1,0 +1,2 @@
+class Airtable < ApplicationRecord
+end
